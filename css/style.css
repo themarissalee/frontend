@@ -1,0 +1,175 @@
+body {
+  background-color: #000;
+  font-family: sans-serif;
+  text-align: center;
+  color: #FFF;
+}
+
+nav {
+  background-color: #4568E3;
+  border: 1px solid #4568E3;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  height: 50px;
+  line-height: 50px;
+}
+
+section {
+  background-color: #FFF;
+  color: #000;
+  height: 145px;
+  text-align: center;
+  line-height: 35px;
+  padding: 15px;
+}
+
+button {
+  background-color: #4568E3;
+  border: 1px solid #4568E3;
+  border-radius: 7px;
+  color: #FFF;
+  width: 250px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  align: center;
+}
+
+table {
+  width: 100%;
+  padding-top: 15px;
+  z-index: 1;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.statusbar {
+  z-index: 1;
+  object-fit: contain;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 532px;
+}
+
+.selected {
+  background-color: #FFF;
+  height: 30px;
+  box-shadow: 10px 10px 35px grey;
+  line-height: 35px;
+  position: relative;
+  left: -15px;
+  width: 375px;
+}
+
+.busline {
+  display: inline-flex;
+ border: 1px #FFF solid;
+ border-radius: 3px;
+ width: 56px;
+ height: 29px;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.page {
+  width: 36px;
+  display: inline-block;
+
+}
+
+.dir {
+  display: inline-flex;
+  align-items: center;
+  width: 100px;
+  float: left;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 40px;
+  margin-top: 10px;
+  margin-left: 16px;
+  justify-content: space-between;
+}
+
+.dir > div:first-child {
+  display: inline-flex;
+  white-space: nowrap;
+  align-items: center;;
+}
+
+.dir > div:first-child > img {
+  width: 15px;
+  height: 15px;
+}
+
+.arrival {
+  font-size: 14px;
+  color: #9E9E9E;
+  text-align: right;
+  margin-right: 16px;
+  width: 80px;
+}
+
+.time {
+  text-align: right;
+  margin-right: 16px;
+}
+
+.bus {
+  text-align: left;
+  text-decoration: underline;
+  margin-left: 16px;
+  margin-top: 15px;
+}
+
+.dest {
+  text-align: center;
+  text-decoration: underline;
+  margin-left: -50px;
+  margin-top: 15px;
+}
+
+.eta {
+  text-align: right;
+  text-decoration: underline;
+  margin-right: 16px;
+  margin-top: 15px;
+}
+
+.compass {
+  display: inline-block;
+  float: left;
+}
+
+.center{
+  font-size: 14px;
+  text-align: left;
+  align-items: left;
+  white-space: nowrap
+}
+
+.navbar {
+  float: left;
+  margin-top: 17px;
+  margin-left: 16px;
+}
+
+.direction {
+  font-size: 14px;
+}
