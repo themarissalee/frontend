@@ -6,14 +6,15 @@ body {
 }
 
 nav {
+  background-image: url("../Images/Base.png");
+  background-repeat: no-repeat;
   background-color: #4568E3;
-  border: 1px solid #4568E3;
+  border: 2px solid #4568E3;
   font-size: 1em;
   font-weight: bold;
   text-align: center;
-  margin-top: 20px;
-  height: 50px;
-  line-height: 50px;
+  height: 70px;
+  line-height: 85px;
 }
 
 section {
@@ -64,7 +65,7 @@ table, th, td {
   background-color: #000;
   position: fixed;
   top: 0;
-  left: 532px;
+  left: 525px;
 }
 
 .selected {
@@ -161,12 +162,12 @@ table, th, td {
   font-size: 14px;
   text-align: left;
   align-items: left;
-  white-space: nowrap
+  white-space: nowrap;
 }
 
 .navbar {
   float: left;
-  margin-top: 17px;
+  margin-top: 35px;
   margin-left: 16px;
 }
 
